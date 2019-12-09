@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-11-07 19:43+0100\n"
+"POT-Creation-Date: 2019-12-09 15:49+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,28 +51,32 @@ msgstr "Handpeilingen"
 msgid "Upload files"
 msgstr "Aanleveren logger bestanden"
 
-#: templates/gouda/base.html:110
-#: templates/gouda/base.html:136
+#: templates/gouda/base.html:109
+msgid "Upload Excel with metadata"
+msgstr "Metadata upload (Excel)"
+
+#: templates/gouda/base.html:111
+#: templates/gouda/base.html:137
 msgid "Download files"
 msgstr "Download"
 
-#: templates/gouda/base.html:117
+#: templates/gouda/base.html:118
 msgid "Log out"
 msgstr "Uitloggen"
 
-#: templates/gouda/base.html:118
+#: templates/gouda/base.html:119
 msgid "Change password"
 msgstr "Wachtwoord veranderen"
 
-#: templates/gouda/base.html:122
+#: templates/gouda/base.html:123
 msgid "Log in"
 msgstr "Inloggen"
 
-#: templates/gouda/base.html:140
+#: templates/gouda/base.html:141
 msgid "Dear"
 msgstr "Beste"
 
-#: templates/gouda/base.html:144
+#: templates/gouda/base.html:145
 #, python-format
 msgid ""
 "\n"
@@ -86,7 +90,7 @@ msgstr "\n"
 "downloaden.<br>We sturen een email naar %(email)s als de tijdreeksen gereed "
 "zijn."
 
-#: templates/gouda/base.html:154
+#: templates/gouda/base.html:155
 msgid "Cancel"
 msgstr "Annuleren"
 
