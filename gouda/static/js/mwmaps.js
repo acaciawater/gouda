@@ -285,6 +285,7 @@ function initMap(div,options) {
 	}
 
 	var control = L.control.labelcontrol({ position: 'topleft' }).addTo(map);
+	var scale = L.control.scale({position: 'bottomleft', imperial: false}).addTo(map);
 
 	map.on('baselayerchange',function(e){changeBaseLayer(e);});
  	map.on('overlayadd',function(e){addOverlay(e);});
