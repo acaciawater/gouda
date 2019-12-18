@@ -132,6 +132,7 @@ ACCOUNT_ACTIVATION_DAYS = 7
 LOGIN_REDIRECT_URL = '/data/'
 
 LOGGING_ROOT = os.path.join(BASE_DIR, 'logs')
+LOGGING_URL = '/logs/'
 
 # Logging
 LOGGING = {
