@@ -66,7 +66,7 @@ window.cookieconsent.initialise({
 		.navbar-brand a img {
 			margin-top: -7px;
 			max-height: 32px;
-			padding-right: 4px;
+			padding-right: 1em;
 		}
 		.navbar-brand {
 			font-size: medium;
@@ -109,6 +109,8 @@ window.cookieconsent.initialise({
 		            <li><a href="/admin/meetnet/handpeilingen">{% trans "Manual measurements" %}</a></li>
 		            <li><a href="{% url 'meetnet:upload-files' object.id %}">{% trans "Upload files" %}</a></li>
 		            <li><a href="{% url 'meetnet:upload-metadata' %}">{% trans "Upload Excel with metadata" %}</a></li>
+					<li><a href="{% url 'sensor:add' %}">Logger installeren</a></li>								            
+					<li><a href="{% url 'sensor:move' %}">Logger verplaatsen</a></li>
 			    {% endif %}
 		            <li><a href="#" data-toggle="modal" data-target="#downloadModal">{% trans "Download files" %}</a></li>
 		          </ul>
